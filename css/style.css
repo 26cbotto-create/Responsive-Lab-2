@@ -1,0 +1,186 @@
+a:link {
+    text-decoration: none;
+}
+
+a:hover, :active {
+    color: 0000FF
+}
+
+html{
+    font-size: 112.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.shadow {
+    box-shadow: 50px 50px 3px 2px rgba(255, 255, 255, 1);
+}
+
+.pic {
+    width: 400px;
+    height: 300px;
+    margin: 10px auto;
+}
+
+header{
+    border-bottom: 1px dotted #bbbbbb;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+section {
+    margin-bottom: 3rem;
+    width: 56rem;
+    margin: 3rem auto;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: clamp(3.815rem, 2.4370202020202014rem + 3.626262626262627vw, 5.61rem);
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height: 152px;
+    color: #00FF00;
+}
+
+h2 {
+    font-size: clamp(3.052rem, 2.1637979797979803rem + 2.3373737373737367vw, 4.209rem);
+    color: #FFFF00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-family: cursive;
+    font-size: clamp(2.441rem, 1.891343434343434rem + 1.446464646464647vw, 3.157rem);
+    color: #00FFFF;
+}
+
+h4 {
+    font-size: clamp(1.953rem, 1.6336464646464646rem + 0.8404040404040408vw, 2.369rem);
+    line-height: 68px;
+}
+
+p {
+    font-family: roboto;
+    font-size: 1rem;
+    color: burlywood;
+    line-height: 32px;
+}
+
+a:link {
+    color: pink;
+    background-color: #000000;
+    font-weight: bold;
+}
+
+a:visited {
+    color: hotpink;
+    background-color: #000000;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    width: 80%;
+    height: 7px;
+    color: #FF0000;
+    background-color: #FF0000;
+}
+
+th {
+    border: 1px;
+    color: #0000FF;}
+td {
+    border: 0px;
+    color: #FFFFFF;
+}
+
+.aboutme {
+    color: blue;
+    font-size: 4.209rem;
+}
+
+.career {
+    color: red;
+    font-size: 4.209rem;
+}
+
+.link {
+    padding: 1rem 1rem;
+    margin: 1rem 2rem;
+    border-radius: 5%;
+    display: inline-block;
+}
+
+.link:link,
+.link:visited {
+    background-color: #FFFF00;
+    transition: 0.4s;
+    box-shadow: 0rem 0.5rem 0.5rem 1rem rgba(255, 255,255, 0.8);
+}
+
+.link:hover {
+    background-color: #FFFFFF;
+    color: #800080;
+    border-radius: 100%;
+    transform: rotate(60turn);
+    box-shadow: 0rem 0.5rem 0.5rem 2rem rgba(128, 0, 128, 0.8);
+    transition: 10s ease-in-out;
+}
+
+#email {
+    scroll-behavior: smooth;
+}
+
+nav a {
+    background-color: #FFFFFF;
+    color: hotpink;
+}
+
+nav a:hover {
+    background-color: #FFFF00;
+    color: hotpink;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.text h2, text p, text h3, text ol, .image {
+    flex: 1;
+}
+
+.container h2 {
+    margin: auto;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+
+
+/* Ayan helped me */
